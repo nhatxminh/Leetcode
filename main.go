@@ -12,7 +12,11 @@ func main() {
 	// fmt.Println(getHappyString(1, 4))
 
 	// Problem 853
-	position := []int{0,4,2}
-	speed := []int{2,1,3}
-	fmt.Print(carFleet(10, position, speed))
+	// position := []int{0,4,2}
+	// speed := []int{2,1,3}
+	// fmt.Print(carFleet(10, position, speed))
+
+	// Problem 238
+	nums := []int{-1,1,0, 3,3}
+	fmt.Print(productExceptSelf(nums))
 }
