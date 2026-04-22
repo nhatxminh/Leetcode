@@ -17,6 +17,11 @@ func main() {
 	// fmt.Print(carFleet(10, position, speed))
 
 	// Problem 238
-	nums := []int{-1,1,0, 3,3}
-	fmt.Print(productExceptSelf(nums))
+	// nums := []int{1,2,3,4}
+	// fmt.Print(productExceptSelf(nums))
+
+	// Problem 2452
+	queries := []string{"word","note","ants","wood"}
+	dictionary := []string{"wood","joke","moat"}
+	fmt.Print(twoEditWords(queries, dictionary))
 }
