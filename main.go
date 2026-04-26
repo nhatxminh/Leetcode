@@ -21,7 +21,11 @@ func main() {
 	// fmt.Print(productExceptSelf(nums))
 
 	// Problem 2452
-	queries := []string{"word","note","ants","wood"}
-	dictionary := []string{"wood","joke","moat"}
-	fmt.Print(twoEditWords(queries, dictionary))
+	// queries := []string{"word","note","ants","wood"}
+	// dictionary := []string{"wood","joke","moat"}
+	// fmt.Print(twoEditWords(queries, dictionary))
+
+	// Problem 55
+	nums := []int{3,2,1,0,4}
+	fmt.Print(canJump(nums))
 }
