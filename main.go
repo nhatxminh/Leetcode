@@ -30,6 +30,10 @@ func main() {
 	// fmt.Print(canJump(nums))
 
 	// Problem 1391
-	grid := [][]int{{4,1},{6,1}}
-	fmt.Print(hasValidPath(grid))
+	// grid := [][]int{{4,1},{6,1}}
+	// fmt.Print(hasValidPath(grid))
+
+	// Problem 2833
+	moves := "_R__LL_"
+	fmt.Print(furthestDistanceFromOrigin(moves))
 }
