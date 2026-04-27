@@ -34,6 +34,10 @@ func main() {
 	// fmt.Print(hasValidPath(grid))
 
 	// Problem 2833
-	moves := "_R__LL_"
-	fmt.Print(furthestDistanceFromOrigin(moves))
+	// moves := "_R__LL_"
+	// fmt.Print(furthestDistanceFromOrigin(moves))
+
+	// Problem 2615
+	nums := []int{6,1,3,3,4,3,4}
+	fmt.Print(distance(nums))
 }
