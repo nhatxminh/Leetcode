@@ -26,6 +26,10 @@ func main() {
 	// fmt.Print(twoEditWords(queries, dictionary))
 
 	// Problem 55
-	nums := []int{3,2,1,0,4}
-	fmt.Print(canJump(nums))
+	// nums := []int{3,2,1,0,4}
+	// fmt.Print(canJump(nums))
+
+	// Problem 1391
+	grid := [][]int{{4,1},{6,1}}
+	fmt.Print(hasValidPath(grid))
 }
