@@ -38,6 +38,11 @@ func main() {
 	// fmt.Print(furthestDistanceFromOrigin(moves))
 
 	// Problem 2615
-	nums := []int{6,1,3,3,4,3,4}
-	fmt.Print(distance(nums))
+	// nums := []int{6,1,3,3,4,3,4}
+	// fmt.Print(distance(nums))
+
+	// Problem 2033
+	grid := [][]int{{1,5},{2,3}}
+	x := 1
+	fmt.Print(minOperations(grid, x))
 }
