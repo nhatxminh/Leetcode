@@ -42,7 +42,11 @@ func main() {
 	// fmt.Print(distance(nums))
 
 	// Problem 2033
-	grid := [][]int{{1,5},{2,3}}
-	x := 1
-	fmt.Print(minOperations(grid, x))
+	// grid := [][]int{{1,5},{2,3}}
+	// x := 1
+	// fmt.Print(minOperations(grid, x))
+
+	// Problem 396	
+	nums := []int{4,3,2,6}
+	fmt.Print(maxRotateFunction(nums))
 }
