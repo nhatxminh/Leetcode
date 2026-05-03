@@ -47,6 +47,16 @@ func main() {
 	// fmt.Print(minOperations(grid, x))
 
 	// Problem 396	
-	nums := []int{4,3,2,6}
-	fmt.Print(maxRotateFunction(nums))
+	// nums := []int{4,3,2,6}
+	// fmt.Print(maxRotateFunction(nums))
+
+	// Problem 3742
+	// grid := [][]int{{0,1},{2,0}}
+	// k := 1
+	// fmt.Print(maxPathScore(grid, k))
+
+	// Problem 62
+	m := 3
+	n := 7
+	fmt.Print(uniquePaths(m, n))
 }
