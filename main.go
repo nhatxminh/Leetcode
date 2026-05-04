@@ -56,7 +56,12 @@ func main() {
 	// fmt.Print(maxPathScore(grid, k))
 
 	// Problem 62
-	m := 3
-	n := 7
-	fmt.Print(uniquePaths(m, n))
+	// m := 3
+	// n := 7
+	// fmt.Print(uniquePaths(m, n))
+
+	// Problem 796
+	s := "abcde"
+	goal := "cdeab"
+	fmt.Print(rotateString(s, goal))
 }
