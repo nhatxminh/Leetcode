@@ -61,7 +61,15 @@ func main() {
 	// fmt.Print(uniquePaths(m, n))
 
 	// Problem 796
-	s := "abcde"
-	goal := "cdeab"
-	fmt.Print(rotateString(s, goal))
+	// s := "abcde"
+	// goal := "cdeab"
+	// fmt.Print(rotateString(s, goal))
+
+	// Problem 9
+	// x := 121
+	// fmt.Print(isPalindrome(x))
+
+	// Problem 13
+	s :="MCMXCIV"
+	fmt.Print(romanToInt(s))
 }
