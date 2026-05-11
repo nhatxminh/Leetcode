@@ -70,6 +70,15 @@ func main() {
 	// fmt.Print(isPalindrome(x))
 
 	// Problem 13
-	s :="MCMXCIV"
-	fmt.Print(romanToInt(s))
+	// s :="MCMXCIV"
+	// fmt.Print(romanToInt(s))
+
+	// Problem 3660
+	nums := []int{106,134,108,158,41,191,150,170,189,116,198,233,217,178,171}
+	// nums := []int{6,19,14,20}
+	fmt.Print(maxValue(nums))
+
+	// Problem 2553
+	// nums := []int{13,25,83,77}
+	// fmt.Print(separateDigits(nums))
 }
