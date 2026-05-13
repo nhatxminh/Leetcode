@@ -52,7 +52,7 @@ func main() {
 	// nums := []int{4,3,2,6}
 	// fmt.Print(maxRotateFunction(nums))
 
-	// Problem 3742
+	// TODO: Problem 3742
 	// grid := [][]int{{0,1},{2,0}}
 	// k := 1
 	// fmt.Print(maxPathScore(grid, k))
@@ -75,7 +75,7 @@ func main() {
 	// s :="MCMXCIV"
 	// fmt.Print(romanToInt(s))
 
-	// Problem 3660
+	// TODO: Problem 3660
 	// nums := []int{106,134,108,158,41,191,150,170,189,116,198,233,217,178,171}
 	// nums := []int{6,19,14,20}
 	// fmt.Print(maxValue(nums))
@@ -88,7 +88,7 @@ func main() {
 	// nums := []int{10,9,8,7,6,5,4,3,2,1,1,0}
 	// fmt.Print(jump(nums))
 
-	// Problem 1674
+	// TODO: Problem 1674
 	// nums := []int{20744,7642,19090,9992,2457,16848,3458,15721}
 	// limit := 22891
 	// fmt.Print(minMoves(nums, limit))
