@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -74,11 +76,24 @@ func main() {
 	// fmt.Print(romanToInt(s))
 
 	// Problem 3660
-	nums := []int{106,134,108,158,41,191,150,170,189,116,198,233,217,178,171}
+	// nums := []int{106,134,108,158,41,191,150,170,189,116,198,233,217,178,171}
 	// nums := []int{6,19,14,20}
-	fmt.Print(maxValue(nums))
+	// fmt.Print(maxValue(nums))
 
 	// Problem 2553
 	// nums := []int{13,25,83,77}
 	// fmt.Print(separateDigits(nums))
+
+	// Problem 45
+	// nums := []int{10,9,8,7,6,5,4,3,2,1,1,0}
+	// fmt.Print(jump(nums))
+
+	// Problem 1674
+	// nums := []int{20744,7642,19090,9992,2457,16848,3458,15721}
+	// limit := 22891
+	// fmt.Print(minMoves(nums, limit))
+
+	// Problem 2078
+	colors := []int{4,4,4,11,4,4,11,4,4,4,4,4}
+	fmt.Print(maxDistance(colors))
 }
