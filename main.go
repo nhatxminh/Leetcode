@@ -94,6 +94,10 @@ func main() {
 	// fmt.Print(minMoves(nums, limit))
 
 	// Problem 2078
-	colors := []int{4,4,4,11,4,4,11,4,4,4,4,4}
-	fmt.Print(maxDistance(colors))
+	// colors := []int{4,4,4,11,4,4,11,4,4,4,4,4}
+	// fmt.Print(maxDistance(colors))
+
+	// Problem 2784
+	nums := []int{1,4,5,4,3,3}
+	fmt.Print(isGood(nums))
 }
