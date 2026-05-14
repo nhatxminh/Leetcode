@@ -98,6 +98,11 @@ func main() {
 	// fmt.Print(maxDistance(colors))
 
 	// Problem 2784
-	nums := []int{1,4,5,4,3,3}
-	fmt.Print(isGood(nums))
+	// nums := []int{1,4,5,4,3,3}
+	// fmt.Print(isGood(nums))
+
+	// Problem 1306
+	arr := []int{4,2,3,0,3,1,2}
+	start := 5
+	fmt.Print(canReach(arr, start))
 }
