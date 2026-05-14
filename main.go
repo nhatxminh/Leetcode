@@ -102,7 +102,7 @@ func main() {
 	// fmt.Print(isGood(nums))
 
 	// Problem 1306
-	arr := []int{4,2,3,0,3,1,2}
-	start := 5
-	fmt.Print(canReach(arr, start))
+	// arr := []int{4,2,3,0,3,1,2}
+	// start := 5
+	// fmt.Print(canReach(arr, start))
 }
