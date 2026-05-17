@@ -105,4 +105,14 @@ func main() {
 	// arr := []int{4,2,3,0,3,1,2}
 	// start := 5
 	// fmt.Print(canReach(arr, start))
+
+	// Problem 1696
+	// nums := []int{-5, -5, -5}
+	// k := 2
+	// fmt.Print(maxResult(nums, k))
+
+	// Problem 153
+	nums := []int{3,4,5,6,1,2}
+	fmt.Print(findMin(nums))
 }
+
