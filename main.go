@@ -112,7 +112,11 @@ func main() {
 	// fmt.Print(maxResult(nums, k))
 
 	// Problem 153
-	nums := []int{3,4,5,6,1,2}
-	fmt.Print(findMin(nums))
+	// nums := []int{3,4,5,6,1,2}
+	// fmt.Print(findMin(nums))
+
+	// Problem 560
+	nums := []int{1,2,3}
+	fmt.Print(subarraySum(nums, 3))
 }
 
