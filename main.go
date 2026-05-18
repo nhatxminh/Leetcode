@@ -116,7 +116,11 @@ func main() {
 	// fmt.Print(findMin(nums))
 
 	// Problem 560
+	// nums := []int{1,2,3}
+	// fmt.Print(subarraySum(nums, 3))
+
+	// Problem 78
 	nums := []int{1,2,3}
-	fmt.Print(subarraySum(nums, 3))
+	fmt.Print(subsets(nums))
 }
 
