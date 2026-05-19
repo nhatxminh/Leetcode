@@ -120,7 +120,12 @@ func main() {
 	// fmt.Print(subarraySum(nums, 3))
 
 	// Problem 78
-	nums := []int{1,2,3}
-	fmt.Print(subsets(nums))
+	// nums := []int{1,2,3}
+	// fmt.Print(subsets(nums))
+
+	// Problem 2540
+	nums1 := []int{1,2,3}
+	nums2 := []int{4,5}
+	fmt.Print(getCommon(nums1, nums2))
 }
 
