@@ -129,8 +129,12 @@ func main() {
 	// fmt.Print(getCommon(nums1, nums2))
 
 	// Problem 2657
-	nums1 := []int{1,3,2,4}
-	nums2 := []int{3,1,2,4}
-	fmt.Print(findThePrefixCommonArray(nums1, nums2))
+	// nums1 := []int{1,3,2,4}
+	// nums2 := []int{3,1,2,4}
+	// fmt.Print(findThePrefixCommonArray(nums1, nums2))
+
+	// Problem 1111
+	seq := "(()())"
+	fmt.Print(maxDepthAfterSplit(seq))
 }
 
