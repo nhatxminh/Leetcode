@@ -134,7 +134,12 @@ func main() {
 	// fmt.Print(findThePrefixCommonArray(nums1, nums2))
 
 	// Problem 1111
-	seq := "(()())"
-	fmt.Print(maxDepthAfterSplit(seq))
+	// seq := "(()())"
+	// fmt.Print(maxDepthAfterSplit(seq))
+
+	// Problem 3043
+	arr1 := []int{10}
+	arr2 := []int{17,11}
+	fmt.Print(longestCommonPrefix(arr1, arr2))
 }
 
