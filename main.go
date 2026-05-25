@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-
 	// Problem 3296
 	// workerTimes := []int{3, 8, 1}
 	// fmt.Println(minNumberOfSeconds(8, workerTimes))
@@ -48,7 +45,7 @@ func main() {
 	// x := 1
 	// fmt.Print(minOperations(grid, x))
 
-	// Problem 396	
+	// Problem 396
 	// nums := []int{4,3,2,6}
 	// fmt.Print(maxRotateFunction(nums))
 
@@ -138,8 +135,12 @@ func main() {
 	// fmt.Print(maxDepthAfterSplit(seq))
 
 	// Problem 3043
-	arr1 := []int{10}
-	arr2 := []int{17,11}
-	fmt.Print(longestCommonPrefix(arr1, arr2))
-}
+	// arr1 := []int{10}
+	// arr2 := []int{17, 11}
+	// fmt.Print(longestCommonPrefix(arr1, arr2))
 
+	// Problem 39
+	nums := []int{2, 3, 5}
+	target := 8
+	fmt.Print(combinationSum(nums, target))
+}
