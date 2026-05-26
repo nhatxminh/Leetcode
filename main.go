@@ -140,7 +140,11 @@ func main() {
 	// fmt.Print(longestCommonPrefix(arr1, arr2))
 
 	// Problem 39
-	nums := []int{2, 3, 5}
-	target := 8
-	fmt.Print(combinationSum(nums, target))
+	// nums := []int{2, 3, 5}
+	// target := 8
+	// fmt.Print(combinationSum(nums, target))
+
+	// Problem 3210
+	word := "aaAbcBC"
+	fmt.Print(numberOfSpecialChars(word))
 }
