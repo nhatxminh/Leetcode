@@ -144,7 +144,7 @@ func main() {
 	// target := 8
 	// fmt.Print(combinationSum(nums, target))
 
-	// Problem 3210
-	word := "aaAbcBC"
+	// Problem 3120 & 3121
+	word := "EAdEecD"
 	fmt.Print(numberOfSpecialChars(word))
 }
