@@ -153,7 +153,11 @@ func main() {
 	// fmt.Print(minElement(nums))
 
 	// Problem 67
-	a := "1010"
-	b := "1011"
-	fmt.Print(addBinary(a, b))
+	// a := "1010"
+	// b := "1011"
+	// fmt.Print(addBinary(a, b))
+
+	// Problem 670
+	num := 2736
+	fmt.Print(maximumSwap(num))
 }
