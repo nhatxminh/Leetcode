@@ -145,6 +145,10 @@ func main() {
 	// fmt.Print(combinationSum(nums, target))
 
 	// Problem 3120 & 3121
-	word := "EAdEecD"
-	fmt.Print(numberOfSpecialChars(word))
+	// word := "EAdEecD"
+	// fmt.Print(numberOfSpecialChars(word))
+
+	// Problem 3300
+	nums := []int{999, 19, 199}
+	fmt.Print(minElement(nums))
 }
