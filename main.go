@@ -149,6 +149,11 @@ func main() {
 	// fmt.Print(numberOfSpecialChars(word))
 
 	// Problem 3300
-	nums := []int{999, 19, 199}
-	fmt.Print(minElement(nums))
+	// nums := []int{999, 19, 199}
+	// fmt.Print(minElement(nums))
+
+	// Problem 67
+	a := "1010"
+	b := "1011"
+	fmt.Print(addBinary(a, b))
 }
