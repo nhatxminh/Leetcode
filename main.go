@@ -158,6 +158,10 @@ func main() {
 	// fmt.Print(addBinary(a, b))
 
 	// Problem 670
-	num := 2736
-	fmt.Print(maximumSwap(num))
+	// num := 2736
+	// fmt.Print(maximumSwap(num))
+
+	// Problem 2222
+	s := "0001100100"
+	fmt.Print(numberOfWays(s))
 }
