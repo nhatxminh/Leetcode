@@ -162,6 +162,11 @@ func main() {
 	// fmt.Print(maximumSwap(num))
 
 	// Problem 2222
-	s := "0001100100"
-	fmt.Print(numberOfWays(s))
+	// s := "0001100100"
+	// fmt.Print(numberOfWays(s))
+
+	// Problem 2998
+	x := 26
+	y := 1
+	fmt.Print(minimumOperationsToMakeEqual(x, y))
 }
