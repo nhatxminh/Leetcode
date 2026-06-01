@@ -10,3 +10,9 @@ class Solution:
             else:
                 return False
         return True
+
+class Main:
+    mass = 84
+    asteroids = [156,197,192,14,97,160,14,5]
+    solution = Solution()
+    print(solution.asteroidsDestroyed(mass=mass, asteroids=asteroids))
