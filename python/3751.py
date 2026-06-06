@@ -1,7 +1,7 @@
 arr = []
 peak = 0
 
-for j in range(0, 10**5 + 1, 1):
+for j in range(0, 130 + 1, 1):
     result = 0
     num_str = str(j)
     if j < 100:
@@ -23,6 +23,6 @@ class Solution:
     
 
 if __name__ == "__main__":
-    # print(arr)
-    solution = Solution()
-    print(solution.totalWaviness(120, 130))
+    print(arr[120])
+    # solution = Solution()
+    # print(solution.totalWaviness(120, 130))
